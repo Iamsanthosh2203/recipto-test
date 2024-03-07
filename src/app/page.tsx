@@ -51,7 +51,7 @@ function Page() {
               Promotions - 4
             </button>
             <button
-              className={`px-6 py-2 text-xl rounded-3xl text-white ${
+              className={`px-6 py-2 text-xl rounded-3xl ${
                 activeButton === "onlinePromotions"
                   ? "bg-[#7f309b] text-white"
                   : "bg-[#f3ebf5] text-[#7f309b]"
