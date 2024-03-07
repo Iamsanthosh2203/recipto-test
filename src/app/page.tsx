@@ -5,7 +5,7 @@ import { FaBell } from "react-icons/fa";
 import Products from "./components/Products";
 
 function Page() {
-  const [activeButton, setActiveButton] = useState(null);
+  const [activeButton, setActiveButton] = useState("products");
 
   return (
     <main className="flex flex-col h-screen">
